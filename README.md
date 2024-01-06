@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://unp.ac.id/">
-    <img src="https://unp.ac.id/nfs-assets/all/images/logo_unp_white.png" alt="UNP" height="96" width="430">
+    <img src="https://unp.ac.id/patch/images/800/88c55c3c3da3b19e7b7939feedaceb35.png" alt="UNP" height="96" width="430">
   </a>
 </div>
 
