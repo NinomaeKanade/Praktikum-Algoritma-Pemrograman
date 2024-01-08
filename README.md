@@ -291,10 +291,10 @@ seperti Pascal.
 - Reusability: Struct dapat digunakan kembali dalam berbagai bagian kode.
 
 ### Penggunaan typedef pada Struc
-Kata kunci typedef adalah kata kunci untuk mendefinisikan tipe data baru. Kita bisa menggunakan kata kunci ini di depan struct untuk menyatakannya sebagai tipe data baru.t
+Sebuah teknik yang digunakan untuk mendefinisikan alias untuk tipe data struct yang bersarang. Ini dapat digunakan untuk membuat kode lebih ringkas dan mudah dibaca.
 
 ### Struct Bersarang
-Struct dapat dibuat bersarang (nested). Bersarang artinya ada struct di dalam struct.
+Sebuah struct yang dideklarasikan di dalam struct lain. Ini memungkinkan Anda untuk membuat struktur data yang lebih kompleks dan hirarkis, merepresentasikan hubungan yang lebih mendalam antara data yang berbeda.
 
 <div align="center">
   <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
