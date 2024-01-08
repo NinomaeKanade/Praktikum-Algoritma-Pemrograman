@@ -95,89 +95,15 @@ Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan
 ---
 <h1 id="JS2">2. Pemrograman Dasar C</h1>
 
-### Struktur dasar program C terdiri dari tiga bagian utama, yaitu:
-- **Judul program :** Bagian ini berisi nama program dan keterangan singkat tentang program.
-- **Header file :** Bagian ini berisi deklarasi fungsi-fungsi yang akan digunakan dalam program.
-- **Deklarasi :** Bagian ini berisi deklarasi variabel, konstanta, dan tipe data yang akan digunakan dalam program.
-- **Deskripsi :** Bagian ini berisi inti program, yaitu langkah-langkah penyelesaian masalah.
+### Sintaks dasar program C
+- **Header file :** Bagian ini digunakan untuk mengimpor fungsi-fungsi yang sudah didefinisikan pada file lain.
+- **Blok main :** Bagian ini berisi kode program utama.
+- **Deklarasi variabel :** Bagian ini digunakan untuk mendeklarasikan variabel yang akan digunakan dalam program.
+- **Deklarasi fungsi :** Bagian ini digunakan untuk mendeklarasikan fungsi-fungsi yang akan digunakan dalam program.
 
-**Judul program** ditulis dalam bentuk komentar. Komentar dalam C dimulai dengan tanda pagar `(#)` diikuti dengan teks komentar.
-
-**Header file** ditulis dengan menggunakan preprocessor directive `#include`. Preprocessor directive adalah bagian dari kode program yang akan dieksekusi oleh preprocessor sebelum kode program dijalankan.
-
-**Deklarasi** ditulis dengan menggunakan keyword `int`, `char`, `float`, `double`, atau `struct`.
-
-**Deskripsi** ditulis dengan menggunakan blok kode yang diawali dengan tanda kurung kurawal buka `{` dan diakhiri dengan tanda kurung kurawal tutup `}`.
-
-**Example :**
-
-```c
-/* Program Awal */
-
-#include <stdio.h>
-
-int main() {
-  /* Deklarasi variabel */
-  int a = 10;
-  char b = 'A';
-
-  /* Deskripsi */
-  printf("Nilai a = %d\n", a);
-  printf("Nilai b = %c\n", b);
-
-  return 0;
-}
-```
-Pada contoh program di atas, struktur dasar program C terdiri dari:
-
-- **Judul program :** "Program Awal"
-- **Header file :** `<stdio.h>`
-- **Deklarasi :**
-  - Variabel `a` dengan tipe data `int`
-  - Variabel `b` dengan tipe data `char`
-- **Deskripsi:**
-  - Mencetak nilai variabel `a` ke layar
-  - Mencetak nilai variabel `b` ke layar
-
-### Proses Input & Output
-
-- **Proses Input :** Memasukkan data dari luar program
-- **Proses Output:** Menampilkan data ke luar program. 
-
-Dalam bahasa C, proses input dan output dapat dilakukan dengan menggunakan fungsi-fungsi standar yang tersedia dalam header file `stdio.h`.
-
-### Fungsi input
-
-Berikut adalah beberapa fungsi input yang tersedia dalam header file `stdio.h` :
-- `scanf()`: Fungsi untuk membaca data dari keyboard.
-- `getchar()`: Fungsi untuk membaca satu karakter dari keyboard.
-
-### Fungsi output
-
-Berikut adalah beberapa fungsi output yang tersedia dalam header file `stdio.h` :
-- `printf()`: Fungsi untuk menampilkan teks ke layar.
-- `putchar()`: Fungsi untuk menampilkan satu karakter ke layar.
-
-**Example :**
-
-```c
-/* Program input dan output */
-
-#include <stdio.h>
-
-int main() {
-  /* Input */
-  int a;
-  printf("Masukkan nilai a: ");
-  scanf("%d", &a);
-
-  /* Output */
-  printf("Nilai a = %d\n", a);
-
-  return 0;
-}
-```
-Pada contoh program di atas, fungsi `scanf()` digunakan untuk membaca nilai variabel `a` dari keyboard. Nilai variabel `a` kemudian ditampilkan ke layar menggunakan fungsi `printf()`.
+### Input dan Output
+- **Input :** sesuatu data yang kita masukan ke dalam program.
+- **Output :** informasi yang dihasilkan setelah dilakukan proses. Output biasanya ditampilkan ke layar komputer.
 
 <div align="center">
   <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
