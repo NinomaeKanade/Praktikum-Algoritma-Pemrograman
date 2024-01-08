@@ -274,97 +274,27 @@ Pointer dapat digunakan untuk mengakses array dalam bahasa C. Dengan menggunakan
 <h1 id="JS10">10. Enumerasi dan Structure</h1>
 
 ### Pengertian Enum
-Enum adalah tipe data yang berisi sekumpulan konstanta. Enum termasuk dalam tipe data bentukan, karena tipe data ini dibuat sendiri oleh kita.
-
-Untuk mendeklarasikan enum, kita perlu menggunakan kata kunci `enum` kemudian diikuti dengan nama enum dan isinya. 
+Enum atau Enumeration merupakan tipe data yang berisi sekumpulan konstanta. Enum termasuk dalam tipe data bentukan, karena tipe data ini dibuat sendiri oleh kita.
 
 ### Pengertian Structure
-Struct adalah tipe data yang menggabungkan beberapa variabel dengan tipe data yang berbeda dalam satu variabel. Struct juga dikenal dengan records dalam bahasa pemrograman lain seperti Pascal.
-
-Untuk mendeklarasikan struct, kita perlu menggunakan kata kunci `struct` kemudian diikuti dengan nama struct dan isinya. 
+Structure atau struct adalah kumpulan dari beberapa variabel dengan beragam tipe data yang dibungkus dalam satu varabel. Struct juga dikenal dengan records dalam bahasa pemrograman lain
+seperti Pascal.
 
 ### Penggunaan Enum
-- Mendefinisikan konstanta dengan lebih ringkas
-- Mengurangi redundansi kode
-- Meningkatkan keterbacaan kode
-
-**Example :**
-```c
-enum level {MUDAH, SEDANG, SUSAH};
-
-void main() {
-  enum level level = MUDAH;
-
-  switch (level) {
-    case EASY:
-      printf("Level: Mudah\n");
-      break;
-    case NORMAL:
-      printf("Level: Sedang\n");
-      break;
-    case HARD:
-      printf("Level: Sulit\n");
-      break;
-  }
-}
-```
+- Meningkatkan keterbacaan kode: Menggunakan nama yang jelas untuk nilai konstanta membuat kode lebih mudah dipahami dan dipelihara.
+- Mencegah kesalahan logika: Enum mencegah penggunaan nilai numerik yang tidak valid karena hanya nilai yang dideklarasikan dalam enum yang diizinkan.
+- Meningkatkan keamanan tipe data: Enum memastikan bahwa variabel hanya dapat menyimpan nilai yang didefinisikan dalam enum.
 
 ### Penggunan Struct
-- Menyimpan data dari berbagai tipe data dalam satu variabel
-- Memudahkan akses ke data
-- Meningkatkan keterbacaan kode
+- Organisasi data: Memudahkan pengelompokan data yang berhubungan.
+- Keterbacaan kode: Meningkatkan pemahaman kode dengan merepresentasikan data secara lebih jelas.
+- Reusability: Struct dapat digunakan kembali dalam berbagai bagian kode.
 
-**Example :**
-```c
-struct mahasiswa {
-  char *nama;
-  int nim;
-  float ipk;
-};
-
-void main() {
-  struct mahasiswa mhs1;
-
-  mhs1.nama = "Fattan";
-  mhs1.nim = 23343037;
-  mhs1.ipk = 3.00;
-
-  printf("Nama: %s\n", mhs1.nama);
-  printf("NIM: %d\n", mhs1.nim);
-  printf("IPK: %.2f\n", mhs1.ipk);
-}
-```
-
-### Penggunaan typedef pada Struct
-Typedef adalah tipe data baru yang dibuat berdasarkan tipe data yang sudah ada. Typedef dapat digunakan untuk membuat nama alias untuk tipe data yang sudah ada.
-
-Untuk menggunakan typedef pada struct, kita perlu menggunakan kata kunci `typedef` kemudian diikuti dengan nama alias dan nama struct. 
-
-**Example :**
-```c
-typedef struct mahasiswa {
-  char *nama;
-  int nim;
-  float ipk;
-} mahasiswa;
-```
+### Penggunaan typedef pada Struc
+Kata kunci typedef adalah kata kunci untuk mendefinisikan tipe data baru. Kita bisa menggunakan kata kunci ini di depan struct untuk menyatakannya sebagai tipe data baru.t
 
 ### Struct Bersarang
-Struct dapat bersarang, yaitu struct di dalam struct. Struct bersarang dapat digunakan untuk menggabungkan data dari berbagai struct dalam satu variabel.
-
-**Example :**
-```c
-struct mahasiswa {
-  char *nama;
-  int nim;
-  float ipk;
-};
-
-struct prodi {
-  char *nama;
-  struct mahasiswa *mahasiswa;
-};
-```
+Struct dapat dibuat bersarang (nested). Bersarang artinya ada struct di dalam struct.
 
 <div align="center">
   <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
