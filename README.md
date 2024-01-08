@@ -77,8 +77,8 @@ Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan
 <li>Refactoring tools: Alat untuk mengubah struktur kode program tanpa mengubah fungsinya.</li>
 <li>Code testing tools: Alat untuk membantu menguji fungsionalitas dan keamanan kode program.</li>
 
-<p>Contoh IDE:</p>
 
+<p>Contoh IDE:</p>
 <li>Visual Studio (C++, C#, Python, Java, dll.)</li>
 <li>IntelliJ IDEA (Java, Python, Kotlin, dll.)</li>
 <li>Eclipse (Java, C++, Python, PHP, dll.)</li>
