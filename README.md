@@ -139,119 +139,19 @@ Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan
 <h1 id="JS4">4. Operator</h1>
 
 ### Operator Aritmatika
-Operator aritmatika digunakan untuk melakukan operasi aritmatika, seperti penjumlahan, pengurangan, perkalian, pembagian, dan sisa bagi
-
-<div align="center">
-  
-|   Operator	  | Deskripsi     |
-| ------------- | ------------- |
-|     `+`   	  | Penjumlahan        |
-|     `-`       | Pengurangan        |
-|     `*`       | Perkalian        |
-|     `/`       | Pembagian        |
-|     `%`       | Sisa bagi        |
-
-**Tabel Operator Aritmatika**
-</div>
+Operator aritmatika adalah operator yang digunakan untuk operasi matematika. Simbol: `+`, `-`, `*`, `/`, dan `%`.
 
 ### Operator Penugasan
-Operator penugasan digunakan untuk memberikan nilai ke variabel.
-
-<div align="center">
-  
-|   Operator	  | Deskripsi     |
-| ------------- | ------------- |
-|     `=`   	  | Penugasan sederhana       |
-|     `+=`       | Penjumlaham        |
-|     `-=`       | Pengurangan        |
-|     `*=`       | Perkalian        |
-|     `/=`       | Pembagian        |
-|     `%=`       | Sisa bagi        |
-
-**Tabel Operator Penugasan**
-</div>
+Operator penugasan digunakan untuk memberikan nilai ke variabel. Simbol: `=`, `+=`, `-=`, `*=`, `/=` dan `%=`.
 
 ### Operator Pembanding
-Operator pembanding digunakan untuk membandingkan nilai dua variabel.
-
-<div align="center">
-  
-|   Operator	  | Deskripsi     |
-| ------------- | ------------- |
-|     `==`   	  | Sama dengan       |
-|     `!=`       | Tidak sama dengan  |
-|     `>`       | Lebih besar dari  |
-|     `<`       | Lebih kecil dari    |
-|     `>=`       | Lebih besar dari atau sama dengan |
-|     `<=`       | Lebih kecil dari atau sama dengan |
-
-**Tabel Operator Pembanding**
-</div>
+Operator pembanding digunakan untuk membandingkan nilai dua variabel. Simbol: `==`, `!=`, `>`, `<`, `>=` dan `<=`.
 
 ### Operator Logika
-Operator logika digunakan untuk menggabungkan hasil dari dua atau lebih operator pembanding.
-
-<div align="center">
-  
-|   Operator	  | Deskripsi     |
-| ------------- | ------------- |
-|     `&&`   	  | AND    |
-|     `       | ` |
-|     `!`       | NOT  |
-
-**Tabel Operator Logika**
-</div>
+Operator logika digunakan untuk menggabungkan hasil dari dua atau lebih operator pembanding. Simbol: `&&` dan `!`.
 
 ### Operator Bitwise
-Operator bitwise digunakan untuk memanipulasi bit-bit dari suatu variabel.
-
-<div align="center">
-  
-|   Operator	  | Deskripsi     |
-| ------------- | ------------- |
-|     `&`   	  | AND       |
-|     `      | `  |
-|     `^`       | XOR  |
-|     `~`       | NOT    |
-|     `<<`       | Shift Kiri |
-|     `>>`       | Shift kanan |
-
-**Tabel Operator Bitwise**
-</div>
-
-### Operator Kondisional
-
-Operator kondisional digunakan untuk memilih blok kode yang akan dieksekusi berdasarkan kondisi tertentu.
-
-Operator kondisional dalam bahasa C adalah `if-else`.
-
-**Sintaks operator `if-else`**
-```c
-if (kondisi) {
-  // Blok kode jika kondisi terpenuhi
-} else {
-  // Blok kode jika kondisi tidak terpenuhi
-}
-```
-
-Operator kondisional `if-else` dapat digunakan secara bersarang, yaitu dengan menggunakan operator `if-else` di dalam blok kode `if-else` lainnya.
-
-**Example :**
-```c
-int a = 10;
-int b = 5;
-
-// Menentukan apakah a lebih besar dari b, jika ya, tentukan apakah a lebih besar dari 15
-if (a > b) {
-  if (a > 15) {
-    printf("a lebih besar dari b dan lebih besar dari 15\n");
-  } else {
-    printf("a lebih besar dari b, tetapi tidak lebih besar dari 15\n");
-  }
-} else {
-  printf("b lebih besar dari a atau a sama dengan b\n");
-}
-```
+Operator bitwise digunakan untuk memanipulasi bit-bit dari suatu variabel. Simbol: `&`, `^`, `~`, `<<` dan `>>`.
 
 <div align="center">
   <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
