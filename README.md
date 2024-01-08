@@ -67,25 +67,25 @@ Bahasa pemrograman berdasarkan tingkatannya:
 
 Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan untuk pengembangan software. Fungsinya adalah untuk menyediakan environment yang terintegrasi sehingga programmer dapat menulis, menguji, dan men-debug kode dengan lebih mudah dan efisien.
 
-### Fitur IDE:
+<h3>Fitur IDE:</h3>
 
-- Editor kode: Sebuah editor teks yang dirancang khusus untuk menulis kode, dengan fitur seperti syntax highlighting, autocomplete, dan code formatting.
-- Compiler/Interpreter: Alat yang menerjemahkan kode program menjadi bahasa mesin atau mengeksekusnya secara langsung.
-- Debugger: Alat untuk menemukan dan memperbaiki error dalam kode program.
-- Build automation: Alat untuk mengotomatiskan proses kompilasi, linking, dan packaging software.
-- Version control: Sistem untuk melacak perubahan kode program dan memutar ulang ke versi sebelumnya jika diperlukan.
-- Refactoring tools: Alat untuk mengubah struktur kode program tanpa mengubah fungsinya.
-- Code testing tools: Alat untuk membantu menguji fungsionalitas dan keamanan kode program.
+<li>Editor kode: Sebuah editor teks yang dirancang khusus untuk menulis kode, dengan fitur seperti syntax highlighting, autocomplete, dan code formatting.</li>
+<li>Compiler/Interpreter: Alat yang menerjemahkan kode program menjadi bahasa mesin atau mengeksekusnya secara langsung.</li>
+<li>Debugger: Alat untuk menemukan dan memperbaiki error dalam kode program.</li>
+<li>Build automation: Alat untuk mengotomatiskan proses kompilasi, linking, dan packaging software.</li>
+<li>Version control: Sistem untuk melacak perubahan kode program dan memutar ulang ke versi sebelumnya jika diperlukan.</li>
+<li>Refactoring tools: Alat untuk mengubah struktur kode program tanpa mengubah fungsinya.</li>
+<li>Code testing tools: Alat untuk membantu menguji fungsionalitas dan keamanan kode program.</li>
 
-### Contoh IDE:
+<h3>Contoh IDE:</h3>
 
-- Visual Studio (C++, C#, Python, Java, dll.)
-- IntelliJ IDEA (Java, Python, Kotlin, dll.)
-- Eclipse (Java, C++, Python, PHP, dll.)
-- PyCharm (Python)
-- WebStorm (JavaScript, HTML, CSS)
-- Atom (JavaScript, Python, PHP, dll.)
-- VS Code (JavaScript, Python, Java, Go, dll.)
+<li>Visual Studio (C++, C#, Python, Java, dll.)</li>
+<li>IntelliJ IDEA (Java, Python, Kotlin, dll.)</li>
+<li>Eclipse (Java, C++, Python, PHP, dll.)</li>
+<li>PyCharm (Python)</li>
+<li>WebStorm (JavaScript, HTML, CSS)</li>
+<li>Atom (JavaScript, Python, PHP, dll.)</li>
+<li>VS Code (JavaScript, Python, Java, Go, dll.)</li>
 
 <div align="center">
   <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
