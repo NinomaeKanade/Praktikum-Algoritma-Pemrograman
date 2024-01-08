@@ -112,9 +112,22 @@ Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan
 ---
 <h1 id="JS3">3. Variabel, Konstanta dan Tipe Data</h1>
 
-### Variabel & Konstanta
-- **Variabel :** Tempat penyimpanan data dalam memori komputer. Variabel dapat digunakan untuk menyimpan berbagai macam data, seperti angka, huruf, karakter, atau bilangan kompleks.
-- **Konstanta :** Nilai yang tidak dapat diubah selama program berjalan. Konstanta biasanya digunakan untuk menyimpan nilai-nilai yang tidak berubah, seperti konstanta fisika atau konstanta matematika.
+### Variabel
+- **Variabel :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
+
+### Konstanta 
+- **Konstanta :** Konstanta adalah nilai data yang tidak dapat diubah selama program berjalan. Konstanta biasanya digunakan untuk menyimpan nilai-nilai yang tidak perlu diubah, seperti nilai pi atau konstanta fisik lainnya.
+
+###Tipe Data
+- **Tipe Data :** Tipe data menentukan jenis data yang dapat disimpan dalam variabel atau konstanta. Bahasa C menyediakan berbagai jenis tipe data, yaitu:
+  <ol>
+- **Integer :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
+- **Float :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
+- **Double :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
+- **Character :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
+- **String :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
+- **Boolean :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
+  </ol>
 
 ### Deklarasi Variabel
 Variabel dideklarasikan dengan menggunakan keyword :
