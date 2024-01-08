@@ -88,9 +88,7 @@ Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan
 <li>Atom (JavaScript, Python, PHP, dll.)</li>
 <li>VS Code (JavaScript, Python, Java, Go, dll.)</li>
 </ol>
-<div align="center">
-  <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
-</div>
+
 
 ---
 <h1 id="JS2">2. Pemrograman Dasar C</h1>
@@ -131,9 +129,6 @@ Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan
 - **String :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
 - **Boolean :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
 
-<div align="center">
-  <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
-</div>
 
 ---
 <h1 id="JS4">4. Operator</h1>
@@ -153,9 +148,6 @@ Operator logika digunakan untuk menggabungkan dua atau lebih pernyataan logika. 
 ### Operator Bitwise
 Operator bit digunakan untuk melakukan operasi pada bit. Simbol: `&`, `^`, `~`, `<<` dan `>>`.
 
-<div align="center">
-  <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
-</div>
 
 ---
 <h1 id="JS5">5. Flow Control (Decision Making)</h1>
@@ -178,9 +170,6 @@ Percabangan menggunakan opreator ternary merupakan bentuk lain dari percabangan 
 ### Percabangan Bersarang (Nested)
 Semua bentuk blok percabangan di atas dapat kita buat di dalam percabangan yang lainnya.
 
-<div align="center">
-  <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
-</div>
 
 ---
 <h1 id="JS6">6. Flow Control (Looping)</h1>
@@ -197,10 +186,6 @@ Perulangan do while sama seperti perulangan while. Perbedaanya: Perulangan do wh
 ### Perulangan Bersarang (Nested Loop)
 Di dalam blok perulangan, kita juga dapat membuat perulangan. Ini disebut dengan nested loop atau perulangan bersarang atau perulangan di dalam perulangan.
 
-<div align="center">
-  <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
-</div>
-
 ---
 <h1 id="JS7">7. Array</h1>
 
@@ -215,10 +200,6 @@ Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dengan
 <li>Penggabungan array: Dua array dapat digabungkan menjadi satu array.</li>
 <li>Pembagian array: Satu array dapat dibagi menjadi dua array.</li>
 </ol>
-
-<div align="center">
-  <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
-</div>
 
 ---
 <h1 id="JS8">8. Fungsi dan Prosedur</h1>
@@ -244,10 +225,6 @@ Pass by value adalah metode pengiriman parameter ke fungsi dalam bahasa C. Pada 
 ### Pass by Reference
 Pass by reference adalah metode pengiriman parameter ke fungsi dalam bahasa C. Pada pass by reference, alamat memori dari parameter aktual disalin ke parameter formal. Perubahan yang terjadi pada parameter formal akan mempengaruhi nilai parameter aktual.
 
-<div align="center">
-  <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
-</div>
-
 ---
 <h1 id="JS9">9. Pointer</h1>
 
@@ -265,10 +242,6 @@ Pointer dapat digunakan untuk pass by reference dalam bahasa C. Dengan menggunak
 
 ### Pointer untuk mengakses array
 Pointer dapat digunakan untuk mengakses array dalam bahasa C. Dengan menggunakan pointer, elemen array dapat diakses secara langsung, tanpa perlu menggunakan indeks.
-
-<div align="center">
-  <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
-</div>
 
 ---
 <h1 id="JS10">10. Enumerasi dan Structure</h1>
@@ -295,10 +268,6 @@ Sebuah teknik yang digunakan untuk mendefinisikan alias untuk tipe data struct y
 
 ### Struct Bersarang
 Sebuah struct yang dideklarasikan di dalam struct lain. Ini memungkinkan Anda untuk membuat struktur data yang lebih kompleks dan hirarkis, merepresentasikan hubungan yang lebih mendalam antara data yang berbeda.
-
-<div align="center">
-  <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
-</div>
 
 ---
 <h1 id="JS11">11. File Handling in C</h1>
@@ -334,7 +303,3 @@ Fungsi fopen() memiliki beberapa mode yang dapat digunakan untuk membuka file, y
 - `a` : Mode tambahkan.
 - `w+` : Mode tulis dan baca.
 - `a+` : Mode tambahkan dan baca.
-
-<div align="center">
-  <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
-</div>
