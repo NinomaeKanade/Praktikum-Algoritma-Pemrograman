@@ -205,104 +205,16 @@ Di dalam blok perulangan, kita juga dapat membuat perulangan. Ini disebut dengan
 <h1 id="JS7">7. Array</h1>
 
 ### Pengertian Array
-Array adalah struktur data yang digunakan untuk menyimpan kumpulan data dengan tipe data yang sama. Array dideklarasikan dengan menggunakan tipe data dan nama array, diikuti dengan tanda kurung siku.
-
-**Deklarasi Array :**
-```c
-int angka[10]; // Array yang menyimpan 10 bilangan bulat
-char nama[20]; // Array yang menyimpan 20 karakter
-```
+Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dengan tipe data yang sama. Array dapat digunakan untuk menyimpan data seperti angka, karakter, atau objek.
 
 ### Penggunaan Array
-Array dapat digunakan untuk berbagai macam keperluan, seperti:
-- Menyimpan kumpulan data
-- Mengurutkan data
-- Mencari data
-- Menghitung rata-rata data
-- Menghitung total data
-
-Berikut adalah beberapa contoh penggunaan array :
-#### 1) Menyimpan kumpulan data
-Array dapat digunakan untuk menyimpan kumpulan data, seperti nama, umur, nilai, atau hasil tes.
-
-**Example :**
-```c
-// Mendeklarasikan array nama
-char nama[10][20];
-
-// Mengisi array nama
-for (int i = 0; i < 10; i++) {
-  printf("Masukkan nama ke-%d: ", i + 1);
-  scanf("%s", nama[i]);
-}
-
-// Mencetak array nama
-for (int i = 0; i < 10; i++) {
-  printf("Nama ke-%d: %s\n", i + 1, nama[i]);
-}
-```
-
-#### 2) Mengurutkan data
-Array dapat digunakan untuk mengurutkan data, seperti nama, umur, nilai, atau hasil tes.
-
-**Example :**
-```c
-// Mendeklarasikan array angka
-int angka[10];
-
-// Mengisi array angka
-for (int i = 0; i < 10; i++) {
-  printf("Masukkan angka ke-%d: ", i + 1);
-  scanf("%d", &angka[i]);
-}
-
-// Mengurutkan array angka
-for (int i = 0; i < 9; i++) {
-  for (int j = i + 1; j < 10; j++) {
-    if (angka[i] > angka[j]) {
-      int temp = angka[i];
-      angka[i] = angka[j];
-      angka[j] = temp;
-    }
-  }
-}
-
-// Mencetak array angka yang telah diurutkan
-for (int i = 0; i < 10; i++) {
-  printf("%d ", angka[i]);
-}
-```
-
-#### 3) Mencari data
-Array dapat digunakan untuk mencari data, seperti nama, umur, nilai, atau hasil tes.
-
-**Example :**
-```c
-// Mendeklarasikan array nama
-char nama[10][20];
-
-// Mengisi array nama
-for (int i = 0; i < 10; i++) {
-  printf("Masukkan nama ke-%d: ", i + 1);
-  scanf("%s", nama[i]);
-}
-
-// Mencari nama "Andi" di array nama
-int indeks = -1;
-for (int i = 0; i < 10; i++) {
-  if (strcmp(nama[i], "Andi") == 0) {
-    indeks = i;
-    break;
-  }
-}
-
-// Mencetak hasil pencarian
-if (indeks == -1) {
-  printf("Nama 'Andi' tidak ditemukan.\n");
-} else {
-  printf("Nama 'Andi' ditemukan pada indeks ke-%d.\n", indeks);
-}
-```
+<ol>
+<li>Pengisian array: Array dapat diisi dengan nilai tertentu secara manual atau menggunakan loop.</li>
+<li>Pengurutan array: Array dapat diurutkan menggunakan berbagai algoritma pengurutan, seperti pengurutan bubble sort, pengurutan selection sort, atau pengurutan insertion sort.</li>
+<li>Pencarian array: Array dapat dicari untuk menemukan elemen tertentu.</li>
+<li>Penggabungan array: Dua array dapat digabungkan menjadi satu array.</li>
+<li>Pembagian array: Satu array dapat dibagi menjadi dua array.</li>
+</ol>
 
 <div align="center">
   <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
