@@ -68,7 +68,7 @@ Bahasa pemrograman berdasarkan tingkatannya:
 Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan untuk pengembangan software. Fungsinya adalah untuk menyediakan environment yang terintegrasi sehingga programmer dapat menulis, menguji, dan men-debug kode dengan lebih mudah dan efisien.
 
 <p>Fitur IDE:</p>
-<ol></ol>
+<ol>
 <li>Editor kode: Sebuah editor teks yang dirancang khusus untuk menulis kode, dengan fitur seperti syntax highlighting, autocomplete, dan code formatting.</li>
 <li>Compiler/Interpreter: Alat yang menerjemahkan kode program menjadi bahasa mesin atau mengeksekusnya secara langsung.</li>
 <li>Debugger: Alat untuk menemukan dan memperbaiki error dalam kode program.</li>
