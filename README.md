@@ -145,13 +145,13 @@ Operator aritmatika adalah operator yang digunakan untuk operasi matematika. Sim
 Operator penugasan digunakan untuk memberikan nilai ke variabel. Simbol: `=`, `+=`, `-=`, `*=`, `/=` dan `%=`.
 
 ### Operator Pembanding
-Operator pembanding digunakan untuk membandingkan nilai dua variabel. Simbol: `==`, `!=`, `>`, `<`, `>=` dan `<=`.
+Operator perbandingan digunakan untuk membandingkan dua nilai. Simbol: `==`, `!=`, `>`, `<`, `>=` dan `<=`.
 
 ### Operator Logika
-Operator logika digunakan untuk menggabungkan hasil dari dua atau lebih operator pembanding. Simbol: `&&` dan `!`.
+Operator logika digunakan untuk menggabungkan dua atau lebih pernyataan logika. Simbol: `&&` dan `!`.
 
 ### Operator Bitwise
-Operator bitwise digunakan untuk memanipulasi bit-bit dari suatu variabel. Simbol: `&`, `^`, `~`, `<<` dan `>>`.
+Operator bit digunakan untuk melakukan operasi pada bit. Simbol: `&`, `^`, `~`, `<<` dan `>>`.
 
 <div align="center">
   <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
