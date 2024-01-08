@@ -4,28 +4,16 @@
   </a>
 </div>
 
-<div align="center">
+# Biodata Mahasiswa
+* Nama: Rafli Arianto
+* NIM: 23343051  
+* Prodi: Informatika (NK)  
+* Kode Kelas: INF1.62.1008  
+* Seksi: 202313430012  
+* Dosen Pengampu: Randi Proska Sandra, M.Sc  
   
-# Biodata Diri
-<table>
-<tr>
-<td>
-<b><pre>
-N A M A                   : F a t t a n  N a u f a n  I s l a m i<br>
-N I M                     : 2 3 3 4 3 0 3 7<br>
-P R O G R A M   S T U D I : I n f o r m a t i k a<br>
-</pre></b>
-</td>
-</tr>
-</table>
-</div>
 
-# Praktikum Algoritma dan Pemrograman
-`🧑‍🏫️ Dosen : Randi Proska Sandra, M.Sc` <br>
-`📋 Kode Kelas : INF1.62.1008` <br>
-`📑 Semester : 1` <br>
-
-<h2 id="navigator">Modul</h2>
+<h2 id="navigator">Job Sheet</h2>
 <list>
   <li><a href="#JS1">Job Sheet 1 - Pengantar Algoritma dan Pemrograman</a></li>
   <li><a href="#JS2">Job Sheet 2 - Pemrograman Dasar C</a></li>
