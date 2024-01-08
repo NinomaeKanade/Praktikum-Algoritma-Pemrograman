@@ -118,7 +118,7 @@ Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan
 ### Konstanta 
 - **Konstanta :** Konstanta adalah nilai data yang tidak dapat diubah selama program berjalan. Konstanta biasanya digunakan untuk menyimpan nilai-nilai yang tidak perlu diubah, seperti nilai pi atau konstanta fisik lainnya.
 
-###Tipe Data
+### Tipe Data
 - **Tipe Data :** Tipe data menentukan jenis data yang dapat disimpan dalam variabel atau konstanta. Bahasa C menyediakan berbagai jenis tipe data, yaitu:
   <ol>
 - **Integer :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
