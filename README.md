@@ -161,72 +161,22 @@ Operator bit digunakan untuk melakukan operasi pada bit. Simbol: `&`, `^`, `~`, 
 <h1 id="JS5">5. Flow Control (Decision Making)</h1>
 
 ### If
-Pernyataan if digunakan untuk mengeksekusi blok kode jika kondisi tertentu terpenuhi.
+Percabangan if merupakan percabangan yang hanya memiliki satu blok pilihan saat kondisi bernilai benar.
 
-**Sintaks pernyataan :**
-```c
-if (kondisi) {
-  // Blok kode yang akan dieksekusi jika kondisi terpenuhi
-}
-```
 ### If Else
-Pernyataan if else digunakan untuk mengeksekusi blok kode jika kondisi tertentu terpenuhi, atau blok kode yang berbeda jika kondisi tidak terpenuhi.
+Percabangan if/else merupakan percabangan yang memiliki dua blok pilihan. Blok pilihan pertama untuk kondisi benar, dan pilihan kedua untuk kondisi salah (else).
 
-**Sintaks pernyataan :**
-```c
-if (kondisi) {
-  // Blok kode yang akan dieksekusi jika kondisi terpenuhi
-} else {
-  // Blok kode yang akan dieksekusi jika kondisi tidak terpenuhi
-}
-```
-
+### If Else If
+Percabangan if/else/if merupakan percabangan yang memiliki lebih dari dua blok pilihan.
 
 ### Switch Case
-Pernyataan switch case digunakan untuk mengeksekusi blok kode berdasarkan nilai suatu variabel.
+Percabangan switch case adalah bentuk lain dari percabangan if/else/if.
 
-**Sintaks pernyataan :**
-```c
-switch (variabel) {
-  case nilai1:
-    // Blok kode yang akan dieksekusi jika variabel bernilai nilai1
-    break;
-  case nilai2:
-    // Blok kode yang akan dieksekusi jika variabel bernilai nilai2
-    break;
-  // ...
-  default:
-    // Blok kode yang akan dieksekusi jika variabel tidak memiliki nilai yang cocok
-    break;
-}
-```
 ### Operator Ternary
-Operator ternary digunakan untuk mengeksekusi blok kode berdasarkan kondisi tertentu.
+Percabangan menggunakan opreator ternary merupakan bentuk lain dari percabangan if/else yang merupakan bentuk singkatnya.
 
-**Sintaks pernyataan :**
-```c
-ekspresi ? nilai_jika_benar : nilai_jika_salah;
-```
 ### Percabangan Bersarang (Nested)
-Percabangan bersarang adalah penggunaan percabangan di dalam percabangan lainnya.
-
-**Example :**
-```c
-int a = 10;
-int b = 5;
-
-// Menentukan apakah a lebih besar dari b, jika ya, tentukan apakah a lebih besar dari 15
-if (a > b) {
-  if (a > 15) {
-    printf("a lebih besar dari b dan lebih besar dari 15\n");
-  } else {
-    printf("a lebih besar dari b, tetapi tidak lebih besar dari 15\n");
-  }
-} else {
-  printf("b lebih besar dari a atau a sama dengan b\n");
-}
-```
-Pada contoh di atas, percabangan if pertama digunakan untuk menentukan apakah a lebih besar dari b. Jika ya, maka percabangan if kedua akan dieksekusi. Percabangan if kedua digunakan untuk menentukan apakah a lebih besar dari 15.
+Semua bentuk blok percabangan di atas dapat kita buat di dalam percabangan yang lainnya.
 
 <div align="center">
   <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
