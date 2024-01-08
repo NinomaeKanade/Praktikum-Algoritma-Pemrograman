@@ -224,128 +224,25 @@ Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dengan
 <h1 id="JS8">8. Fungsi dan Prosedur</h1>
 
 ### Pengertian Fungsi
-- Fungsi adalah blok kode yang dapat digunakan untuk melakukan tugas tertentu. Fungsi dapat digunakan untuk membagi kode menjadi bagian-bagian yang lebih kecil dan lebih mudah dikelola.
-
-- Fungsi dideklarasikan dengan menggunakan kata kunci `int`, `char`, atau `void`, diikuti dengan nama fungsi, tanda kurung, dan daftar parameter. <br>
-
-**Example :**
-```c
-// Fungsi yang mengembalikan nilai integer
-int tambah(int a, int b) {
-  return a + b;
-}
-
-// Fungsi yang tidak mengembalikan nilai
-void cetak(char *str) {
-  printf("%s\n", str);
-}
-```
+Fungsi adalah sub-program yang bisa digunakan kembali baik di dalam program itu sendiri, maupun di program yang lain.
 
 ### Penggunaan Fungsi
-Fungsi dapat digunakan dengan memanggilnya menggunakan nama fungsi, diikuti dengan daftar argumen.
-
-**Example :**
-```c
-int a = 10;
-int b = 20;
-
-// Memanggil fungsi tambah
-int hasil = tambah(a, b);
-
-// Mencetak hasil
-printf("Hasil: %d\n", hasil);
-
-// Memanggil fungsi cetak
-cetak("Halo, dunia!");
-```
+Untuk memanggil fungsi, cukup gunakan nama fungsi diikuti dengan argumen yang dibutuhkan.
 
 ### Fungsi rekursif
-Fungsi rekursif adalah fungsi yang memanggil dirinya sendiri. Fungsi rekursif dapat digunakan untuk menyelesaikan masalah yang melibatkan iterasi.
+Fungsi dapat memanggil dirinya sendiri, yang disebut rekursi. Rekursi berguna untuk menyelesaikan masalah yang memiliki struktur rekursif, seperti menghitung faktorial atau menelusuri pohon data.
 
-**Example :**
-```c
-// Fungsi faktorial
-int faktorial(int n) {
-  if (n == 0) {
-    return 1;
-  } else {
-    return n * faktorial(n - 1);
-  }
-}
-```
-### Variabel Lokal & Global
-- Variabel lokal : variabel yang hanya dapat diakses di dalam fungsi di mana variabel tersebut dideklarasikan.
-- Variabel global : variabel yang dapat diakses di seluruh program.
+### Variabel Lokal
+Variabel lokal dideklarasikan di dalam fungsi. Variabel lokal hanya dapat diakses dari dalam fungsi tempat variabel tersebut dideklarasikan. Variabel lokal dihapus setelah fungsi selesai dieksekusi.
 
-**Example :**
-```c
-// Variabel lokal
-int fungsi(void) {
-  int a = 10;
-  return a;
-}
+### Variabel Global
+Variabel global dideklarasikan di luar fungsi. Variabel global dapat diakses dari mana saja dalam program. Variabel global tetap ada selama program berjalan.
 
-// Variabel global
-int a = 10;
-
-int main(void) {
-  // Variabel lokal
-  int b = fungsi();
-
-  // Variabel global
-  a = 20;
-
-  printf("Nilai a: %d\n", a);
-  printf("Nilai b: %d\n", b);
-
-  return 0;
-}
-```
 ### Pass by Value
-Pass by value adalah metode pengiriman nilai parameter ke fungsi. Ketika parameter dikirimkan dengan cara pass by value, maka nilai parameter disalin ke variabel lokal di dalam fungsi.
-
-**Example :**
-```c
-// Fungsi yang mengubah nilai parameter
-void ubah(int *a) {
-  *a = 10;
-}
-
-int main(void) {
-  int a = 5;
-
-  // Mengubah nilai a
-  ubah(&a);
-
-  // Mencetak nilai a
-  printf("Nilai a: %d\n", a);
-
-  return 0;
-}
-```
+Pass by value adalah metode pengiriman parameter ke fungsi dalam bahasa C. Pada pass by value, nilai dari parameter aktual disalin ke parameter formal. Perubahan yang terjadi pada parameter formal tidak akan mempengaruhi nilai parameter aktual.
 
 ### Pass by Reference
-Pass by reference adalah metode pengiriman alamat parameter ke fungsi. Ketika parameter dikirimkan dengan cara pass by reference, maka fungsi dapat mengakses dan mengubah nilai parameter asli.
-
-**Example :**
-```c
-// Fungsi yang mengubah nilai parameter
-void ubah(int *a) {
-  *a = 10;
-}
-
-int main(void) {
-  int a = 5;
-
-  // Mengubah nilai a
-  ubah(&a);
-
-  // Mencetak nilai a
-  printf("Nilai a: %d\n", a);
-
-  return 0;
-}
-```
+Pass by reference adalah metode pengiriman parameter ke fungsi dalam bahasa C. Pada pass by reference, alamat memori dari parameter aktual disalin ke parameter formal. Perubahan yang terjadi pada parameter formal akan mempengaruhi nilai parameter aktual.
 
 <div align="center">
   <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
@@ -355,58 +252,19 @@ int main(void) {
 <h1 id="JS9">9. Pointer</h1>
 
 ### Pengertian Pointer
-Pointer adalah sebuah variabel yang menyimpan alamat memori dari variabel lain. Dengan kata lain, pointer adalah variabel yang berisikan alamat memori dari variabel lain.
+Setiap variabel yang kita buat pada program akan memiliki alamat memori. Alamat memori berfungsi untuk menentukan lokasi penyimpanan data pada memori (RAM). Kadang alamat memori ini disebut reference atau referensi.
 
-Untuk mendeklarasikan pointer, kita perlu menambahkan tanda asterisk (*) di depan nama variabel.
-
-**Example :**
-```c
-int *p;
-```
 ### Penggunaan Pointer
-- Melewatkan nilai variabel ke fungsi-
-- Mengakses elemen array
-- Mengalokasikan memori secara dinamis
+- Deklarasi pointer, Deklarasi pointer terdiri dari tipe data, nama pointer, dan operator asterisk (*).
+- Penugasan nilai ke pointer, Nilai dapat diberikan ke pointer dengan menggunakan operator assigment (=).
+- Pengaksesan nilai variabel melalui pointer, Nilai variabel dapat diakses melalui pointer dengan menggunakan operator referensi (*).
+- Penggunaan pointer dalam fungsi, Pointer dapat digunakan dalam fungsi untuk mengirimkan alamat memori dari variabel ke fungsi.
 
 ### Pointer untuk pass by reference
-Pass by reference adalah teknik untuk meneruskan nilai variabel ke fungsi dengan cara memberikan alamat memori variabel tersebut. Dengan pass by reference, perubahan nilai variabel di dalam fungsi akan berpengaruh pada nilai variabel aslinya.
-
-Untuk menggunakan pointer untuk pass by reference, kita perlu menggunakan operator `&` untuk mengambil alamat memori variabel.
-
-**Example :**
-```c
-void ubahNilai(int *x) {
-  *x = 10;
-}
-
-int main() {
-  int a = 5;
-
-  ubahNilai(&a);
-
-  printf("Nilai a: %d\n", a);
-
-  return 0;
-}
-```
-Pada program di atas, fungsi `ubahNilai()` menerima parameter `x` yang bertipe `int` dan berisi alamat memori variabel `int`. Di dalam fungsi, nilai variabel `x` diubah menjadi 10.
-
-Saat fungsi `ubahNilai()` kembali, nilai variabel `a` juga akan berubah menjadi 10. Hal ini karena perubahan nilai variabel `x` akan berpengaruh pada nilai variabel `a` yang disimpan di alamat memori yang sama.
+Pointer dapat digunakan untuk pass by reference dalam bahasa C. Dengan menggunakan pointer, nilai variabel dapat diubah dari dalam fungsi.
 
 ### Pointer untuk mengakses array
-Pointer dapat digunakan untuk mengakses elemen array dengan cara menggunakan operator `*` untuk mendereferensi pointer. 
-
-**Example :**
-```c
-int a[10];
-int *p = a;
-
-printf("%d\n", *p); // Mencetak elemen pertama array
-
-p++;
-
-printf("%d\n", *p); // Mencetak elemen kedua array
-```
+Pointer dapat digunakan untuk mengakses array dalam bahasa C. Dengan menggunakan pointer, elemen array dapat diakses secara langsung, tanpa perlu menggunakan indeks.
 
 <div align="center">
   <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
