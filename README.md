@@ -68,7 +68,7 @@ Bahasa pemrograman berdasarkan tingkatannya:
 Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan untuk pengembangan software. Fungsinya adalah untuk menyediakan environment yang terintegrasi sehingga programmer dapat menulis, menguji, dan men-debug kode dengan lebih mudah dan efisien.
 
 <p>Fitur IDE:</p>
-
+<ol></ol>
 <li>Editor kode: Sebuah editor teks yang dirancang khusus untuk menulis kode, dengan fitur seperti syntax highlighting, autocomplete, dan code formatting.</li>
 <li>Compiler/Interpreter: Alat yang menerjemahkan kode program menjadi bahasa mesin atau mengeksekusnya secara langsung.</li>
 <li>Debugger: Alat untuk menemukan dan memperbaiki error dalam kode program.</li>
@@ -76,10 +76,10 @@ Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan
 <li>Version control: Sistem untuk melacak perubahan kode program dan memutar ulang ke versi sebelumnya jika diperlukan.</li>
 <li>Refactoring tools: Alat untuk mengubah struktur kode program tanpa mengubah fungsinya.</li>
 <li>Code testing tools: Alat untuk membantu menguji fungsionalitas dan keamanan kode program.</li>
-<a>             </a>
+</ol>
 
 <p>Contoh IDE:</p>
-
+<ol>
 <li>Visual Studio (C++, C#, Python, Java, dll.)</li>
 <li>IntelliJ IDEA (Java, Python, Kotlin, dll.)</li>
 <li>Eclipse (Java, C++, Python, PHP, dll.)</li>
@@ -87,7 +87,7 @@ Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan
 <li>WebStorm (JavaScript, HTML, CSS)</li>
 <li>Atom (JavaScript, Python, PHP, dll.)</li>
 <li>VS Code (JavaScript, Python, Java, Go, dll.)</li>
-
+</ol>
 <div align="center">
   <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
 </div>
