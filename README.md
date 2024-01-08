@@ -113,134 +113,24 @@ Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan
 <h1 id="JS3">3. Variabel, Konstanta dan Tipe Data</h1>
 
 ### Variabel
-- **Variabel :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
+**Variabel :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek. Deklarasi variabel terdiri dari dua bagian, yaitu:
+- **Tipe data :** Tipe data menentukan jenis data yang dapat disimpan dalam variabel.
+- **Nama variabel :** Nama variabel adalah identitas variabel yang digunakan untuk mengaksesnya dalam program.
 
 ### Konstanta 
-- **Konstanta :** Konstanta adalah nilai data yang tidak dapat diubah selama program berjalan. Konstanta biasanya digunakan untuk menyimpan nilai-nilai yang tidak perlu diubah, seperti nilai pi atau konstanta fisik lainnya.
+**Konstanta :** Konstanta adalah nilai data yang tidak dapat diubah selama program berjalan. Konstanta biasanya digunakan untuk menyimpan nilai-nilai yang tidak perlu diubah, seperti nilai pi atau konstanta fisik lainnya. Deklarasi konstanta terdiri dari dua bagian, yaitu:
+- **Tipe data :** Tipe data menentukan jenis data yang disimpan dalam konstanta.
+- **Nilai konstanta :** Nilai konstanta adalah nilai yang akan disimpan dalam konstanta.
 
 ### Tipe Data
-- **Tipe Data :** Tipe data menentukan jenis data yang dapat disimpan dalam variabel atau konstanta. Bahasa C menyediakan berbagai jenis tipe data, yaitu:
-  <ol>
+**Tipe Data :** Tipe data menentukan jenis data yang dapat disimpan dalam variabel atau konstanta. Bahasa C menyediakan berbagai jenis tipe data, yaitu:
 - **Integer :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
 - **Float :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
 - **Double :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
 - **Character :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
 - **String :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
 - **Boolean :** Variabel adalah tempat penyimpanan data di dalam program komputer. Variabel dapat digunakan untuk menyimpan berbagai jenis data, seperti angka, teks, atau objek.
-  </ol>
 
-### Deklarasi Variabel
-Variabel dideklarasikan dengan menggunakan keyword :
-- `int` 
-- `char` 
-- `float` 
-- `double`  
-- `struct`
-
-### Akses Variabel
-Nilai variabel dapat diakses dengan menggunakan operator `.` atau `->`.
-
-Operator `.` digunakan untuk mengakses anggota variabel struktur.
-
-Operator `->` digunakan untuk mengakses anggota variabel struktur secara langsung.
-
-**Example :**
-
-```c
-int a = 10;
-char b = 'A';
-float c = 3.14;
-double d = 2.71828;
-struct s s = {1, 'B'};
-
-// Akses variabel a
-printf("Nilai a = %d\n", a);
-
-// Akses variabel b
-printf("Nilai b = %c\n", b);
-
-// Akses variabel c
-printf("Nilai c = %f\n", c);
-
-// Akses variabel d
-printf("Nilai d = %lf\n", d);
-
-// Akses anggota variabel s
-printf("Nilai s.x = %d\n", s.x);
-printf("Nilai s.y = %c\n", s.y);
-```
-
-### Nilai Awal Variabel
-Nilai awal variabel dapat ditentukan saat deklarasi variabel.
-
-**Example :**
-```c
-int a = 10; // nilai awal variabel a = 10
-char b = 'A'; // nilai awal variabel b = 'A'
-float c = 3.14; // nilai awal variabel c = 3.14
-double d = 2.71828; // nilai awal variabel d = 2.71828
-```
-
-## Tipe Data Fundamental
-Bahasa C memiliki beberapa tipe data fundamental, yaitu:
-
-- `int`: Tipe data integer untuk menyimpan bilangan bulat.
-- `char`: Tipe data karakter untuk menyimpan satu karakter.
-- `float`: Tipe data floating-point untuk menyimpan bilangan desimal.
-- `double`: Tipe data double-precision floating-point untuk menyimpan bilangan desimal dengan presisi yang lebih tinggi dari tipe data `float`.
-
-<div align="center">
-
-
-|   Tipe Data	  | Ukuran Memori |
-| ------------- | ------------- |
-|     `int` 	  | 4 Byte        |
-|     `char`    | 1 Byte        |
-|     `float`   | 4 Byte        |
-|     `double`  | 8 byte        |
-
-**Tabel Ukuran Memori**
-</div>
-
-## Type Casting
-Type casting adalah konversi tipe data dari satu tipe data ke tipe data lainnya.
-
-Type casting dapat dilakukan dengan menggunakan operator `()`.
-
-**Example :**
-```c
-int a = 10;
-float b = 3.14;
-
-// Type casting dari int ke float
-float c = (float)a;
-
-// Type casting dari float ke int
-int d = (int)b;
-
-// Type casting dari char ke int
-int e = (int)'A';
-
-printf("Nilai c = %f\n", c);
-printf("Nilai d = %d\n", d);
-printf("Nilai e = %d\n", e);
-```
-
-## Keywords
-Keywords adalah kata kunci yang memiliki arti khusus dalam bahasa pemrograman.
-
-Berikut adalah beberapa contoh keywords dalam bahasa C:
-- `int`
-- `char`
-- `float`
-- `double`
-- `main()`
-- `printf()`
-- `scanf()`
-- `if()`
-- `else()`
-
-Keywords tidak dapat digunakan sebagai nama variabel
 <div align="center">
   <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
 </div>
