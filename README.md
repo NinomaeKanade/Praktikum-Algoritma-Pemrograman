@@ -186,60 +186,16 @@ Semua bentuk blok percabangan di atas dapat kita buat di dalam percabangan yang 
 <h1 id="JS6">6. Flow Control (Looping)</h1>
 
 ### Perulangan for
-Perulangan for digunakan untuk mengeksekusi blok kode tertentu secara berulang-ulang, dengan jumlah pengulangan yang telah ditentukan.
-
-**Sintaks perulangan for :**
-```C
-for (inisialisasi; kondisi; iterasi) {
-  // Blok kode yang akan dieksekusi secara berulang-ulang
-}
-```
-Bagian-bagian dari sintaksis perulangan for adalah sebagai berikut:
-- **Inisialisasi**: Bagian ini digunakan untuk menginisialisasi variabel yang digunakan untuk mengendalikan pengulangan.
-- **Kondisi**: Bagian ini digunakan untuk menentukan apakah pengulangan akan dilanjutkan atau dihentikan.
-- **Iterasi**: Bagian ini digunakan untuk mengubah nilai variabel yang digunakan untuk mengendalikan pengulangan.
+Perulangan for merupakan perulangan yang termasuk dalam couted loop, karena sudah jelas berapa kali ia akan mengulang.
 
 ### Perulangan while
-Perulangan while digunakan untuk mengeksekusi blok kode tertentu secara berulang-ulang, selama kondisi tertentu terpenuhi.
-
-**Sintaks perulangan while :**
-```c
-while (kondisi) {
-  // Blok kode yang akan dieksekusi secara berulang-ulang
-}
-```
-Pada contoh di atas, perulangan while akan dieksekusi selama kondisi terpenuhi.
+Perulangan while merupakan perulangan yang termasuk dalam perulangan uncounted loop. Perulangan while juga dapat menjadi perulangan yang counted loop dengan memberikan counter di dalamnya.
 
 ### Perulangan Do While
-Perulangan do while digunakan untuk mengeksekusi blok kode tertentu secara berulang-ulang, setidaknya satu kali, selama kondisi tertentu terpenuhi.
-
-**Sintaks perulangan do while :**
-```c
-do {
-  // Blok kode yang akan dieksekusi secara berulang-ulang
-} while (kondisi);
-```
-Pada contoh di atas, perulangan do while akan dieksekusi setidaknya satu kali, kemudian kondisi akan diperiksa. Jika kondisi terpenuhi, maka blok kode akan dieksekusi kembali.
+Perulangan do while sama seperti perulangan while. Perbedaanya: Perulangan do while akan melakukan perulangan sebanyak 1 kali terlebih dahulu, lalu mengecek kondisi yang ada di dalam kurung while.
 
 ### Perulangan Bersarang (Nested Loop)
-Perulangan bersarang adalah penggunaan perulangan di dalam perulangan lainnya.
-**Example :**
-```c
-// Mencetak segitiga Pascal
-for (int i = 0; i < 10; i++) {
-  for (int j = 0; j <= i; j++) {
-    printf("%d ", (i + 1) - j);
-  }
-  printf("\n");
-}
-```
-Pada contoh di atas, perulangan luar digunakan untuk mencetak baris-baris dari segitiga Pascal. Perulangan dalam digunakan untuk mencetak angka-angka di setiap baris.
-
-Perulangan bersarang dapat digunakan untuk menyelesaikan berbagai macam masalah, seperti:
-- Mencetak pola
-- Mengurutkan data
-- Mencari data
-- Menghitung luas, volume, atau keliling suatu objek
+Di dalam blok perulangan, kita juga dapat membuat perulangan. Ini disebut dengan nested loop atau perulangan bersarang atau perulangan di dalam perulangan.
 
 <div align="center">
   <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
