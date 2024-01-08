@@ -103,10 +103,6 @@ Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan
 - **Input :** sesuatu data yang kita masukan ke dalam program.
 - **Output :** informasi yang dihasilkan setelah dilakukan proses. Output biasanya ditampilkan ke layar komputer.
 
-<div align="center">
-  <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
-</div>
-
 ---
 <h1 id="JS3">3. Variabel, Konstanta dan Tipe Data</h1>
 
