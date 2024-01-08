@@ -304,28 +304,36 @@ Sebuah struct yang dideklarasikan di dalam struct lain. Ini memungkinkan Anda un
 <h1 id="JS11">11. File Handling in C</h1>
 
 ### Membaca File dengan C
-Untuk membaca file dengan C, kita perlu menggunakan fungsi `fopen()` untuk membuka file. Fungsi `fopen()` menerima dua parameter, yaitu nama file dan mode. Mode menentukan bagaimana file akan dibuka.
+Untuk membaca file dengan bahasa C, Anda dapat menggunakan fungsi `fopen()` untuk membuka file, fungsi `fread()` untuk membaca data dari file, dan fungsi `fclose()` untuk menutup file.
 
-Ada beberapa mode yang dapat digunakan untuk membuka file, antara lain:
-- `r` : Membuka file untuk dibaca
-- `w` : Membuka file untuk ditulis
-- `a` : Membuka file untuk ditambahkan datanya di bagian paling bawah baris terakhir
-- `r+` : Sama dengan `r`, tetapi selain file dapat dibaca juga dapat ditulis
-- `w+` : Sama dengan `w`, tetapi selain file dapat ditulis juga dapat dibaca
-- `a+` : Sama dengan `a`, tetapi selain file dapat ditulis juga dapat dibaca
+Fungsi `fread()` digunakan untuk membaca data dari file. Fungsi ini mengambil empat parameter:
+- Pointer ke buffer tempat data akan dibaca.
+- Ukuran satu elemen data.
+- Jumlah elemen data yang akan dibaca.
+- File pointer yang menunjuk ke file yang akan dibaca.
 
-Setelah file dibuka, kita dapat membaca data dari file dengan menggunakan fungsi `fread()`. Fungsi `fread()` menerima tiga parameter, yaitu alamat memori tempat menyimpan data yang dibaca, jumlah data yang akan dibaca, dan ukuran data yang akan dibaca.
+Fungsi `fopen()` memiliki beberapa mode yang dapat digunakan untuk membuka file, yaitu:
+- `r` : Mode baca.
+- `w` : Mode tulis.
+- `a` : Mode tambahkan.
+- `r+` : Mode baca dan tulis.
+- `w+` : Mode tulis dan baca.
+- `a+` : Mode tambahkan dan baca.
 
 ### Menulis dalam File dengan C
-Untuk menulis dalam file dengan C, kita perlu menggunakan fungsi `fopen()` untuk membuka file. Fungsi `fopen()` menerima dua parameter, yaitu nama file dan mode. Mode menentukan bagaimana file akan dibuka.
+Untuk menulis file dengan bahasa C, Anda dapat menggunakan fungsi `fopen()` untuk membuka file, fungsi `fwrite()` untuk menulis data ke file, dan fungsi `fclose()` untuk menutup file.
 
-Ada beberapa mode yang dapat digunakan untuk membuka file, antara lain:
-- `w` : Membuka file untuk ditulis
-- `a` : Membuka file untuk ditambahkan datanya di bagian paling bawah baris terakhir
-- `w+` : Sama dengan `w`, tetapi selain file dapat ditulis juga dapat dibaca
-- `a+` : Sama dengan `a`, tetapi selain file dapat ditulis juga dapat dibaca
+Fungsi `fwrite()` digunakan untuk menulis data ke file. Fungsi ini mengambil empat parameter:
+- Pointer ke data yang akan ditulis.
+- Ukuran satu elemen data.
+- Jumlah elemen data yang akan ditulis.
+- File pointer yang menunjuk ke file yang akan ditulis.
 
-Setelah file dibuka, kita dapat menulis data ke file dengan menggunakan fungsi `fwrite()`. Fungsi `fwrite()` menerima tiga parameter, yaitu data yang akan ditulis, jumlah data yang akan ditulis, dan ukuran data yang akan ditulis.
+Fungsi fopen() memiliki beberapa mode yang dapat digunakan untuk membuka file, yaitu:
+- `w` : Mode tulis.
+- `a` : Mode tambahkan.
+- `w+` : Mode tulis dan baca.
+- `a+` : Mode tambahkan dan baca.
 
 <div align="center">
   <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
