@@ -66,7 +66,7 @@ Bahasa pemrograman berdasarkan tingkatannya:
 ### IDE
 
 Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan untuk pengembangan software. Fungsinya adalah untuk menyediakan environment yang terintegrasi sehingga programmer dapat menulis, menguji, dan men-debug kode dengan lebih mudah dan efisien.
-Fitur IDE:
+ Fitur IDE:
 - Editor kode: Sebuah editor teks yang dirancang khusus untuk menulis kode, dengan fitur seperti syntax highlighting, autocomplete, dan code formatting.
 - Compiler/Interpreter: Alat yang menerjemahkan kode program menjadi bahasa mesin atau mengeksekusnya secara langsung.
 - Debugger: Alat untuk menemukan dan memperbaiki error dalam kode program.
@@ -74,7 +74,7 @@ Fitur IDE:
 - Version control: Sistem untuk melacak perubahan kode program dan memutar ulang ke versi sebelumnya jika diperlukan.
 - Refactoring tools: Alat untuk mengubah struktur kode program tanpa mengubah fungsinya.
 - Code testing tools: Alat untuk membantu menguji fungsionalitas dan keamanan kode program.
-Contoh IDE:
+ Contoh IDE:
 - Visual Studio (C++, C#, Python, Java, dll.)
 - IntelliJ IDEA (Java, Python, Kotlin, dll.)
 - Eclipse (Java, C++, Python, PHP, dll.)
