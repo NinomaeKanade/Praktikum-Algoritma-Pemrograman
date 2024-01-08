@@ -27,57 +27,68 @@ P R O G R A M   S T U D I : I n f o r m a t i k a<br>
 
 <h2 id="navigator">Modul</h2>
 <list>
-  <li><a href="#modul1">Modul 1 - Pengantar Algoritma dan Pemrograman</a></li>
-  <li><a href="#modul2">Modul 2 - Pemrograman Dasar C</a></li>
-  <li><a href="#modul3">Modul 3 - Variabel, Konstanta dan Tipe Data</a></li>
-  <li><a href="#modul4">Modul 4 - Operator</a></li>
-  <li><a href="#modul5">Modul 5 - Flow Control (Decision Making)</a></li>
-  <li><a href="#modul6">Modul 6 - Flow Control (Looping)</a></li>
-  <li><a href="#modul7">Modul 7 - Array</a></li>
-  <li><a href="#modul8">Modul 8 - Fungsi dan Prosedur</a></li>
-  <li><a href="#modul9">Modul 9 - Pointer</a></li>
-  <li><a href="#modul10">Modul 10 - Enumerasi dan Structure</a></li>
- <li><a href="#modul11">Modul 11 - File Handling in C</a></li>
+  <li><a href="#JS1">Job Sheet 1 - Pengantar Algoritma dan Pemrograman</a></li>
+  <li><a href="#JS2">Job Sheet 2 - Pemrograman Dasar C</a></li>
+  <li><a href="#JS3">Job Sheet 3 - Variabel, Konstanta dan Tipe Data</a></li>
+  <li><a href="#JS4">Job Sheet 4 - Operator</a></li>
+  <li><a href="#JS5">Job Sheet 5 - Flow Control (Decision Making)</a></li>
+  <li><a href="#JS6">Job Sheet 6 - Flow Control (Looping)</a></li>
+  <li><a href="#JS7">Job Sheet 7 - Array</a></li>
+  <li><a href="#JS8">Job Sheet 8 - Fungsi dan Prosedur</a></li>
+  <li><a href="#JS9">Job Sheet 9 - Pointer</a></li>
+  <li><a href="#JS10">Job Sheet 10 - Enumerasi dan Structure</a></li>
+ <li><a href="#JS11">Job Sheet 11 - File Handling in C</a></li>
 </list>
 
 ---
-<h1 id="modul1">1. Pengantar Algoritma Pemograman</h1>
+<h1 id="JS1">1. Pengantar Algoritma Pemograman</h1>
 
-### Algoritma & Pemrograman
+### Algoritma
 
-- Algoritma adalah serangkaian langkah atau instruksi yang disusun secara sistematis dan logis untuk menyelesaikan suatu masalah. Dalam pemrograman komputer, algoritma digunakan untuk menentukan alur logika program.
-- Pemrograman adalah proses penulisan kode untuk membuat program komputer. Proses ini meliputi penyusunan algoritma, penulisan kode, dan pengujian program.
+- Dalam matematika dan ilmu komputer, algoritma adalah rangkaian terbatas dari instruksi-instruksi yang rumit, yang biasanya digunakan untuk menyelesaikan atau menjalankan suatu kelompok masalah komputasi tertentu. Algoritma digunakan sebagai spesifikasi untuk melakukan perhitungan dan pemrosesan data.
+- Secara umum, algoritma dapat didefinisikan sebagai sekumpulan instruksi yang disusun secara logis dan sistematis untuk menyelesaikan suatu masalah. Algoritma biasanya terdiri dari langkah-langkah yang berurutan dan dapat diulang-ulang.
 
-Algoritma pemrograman dapat ditulis dalam berbagai bentuk, yaitu:
-- **Pseudocode :** Pseudocode adalah algoritma yang ditulis dalam bahasa alami, tetapi menggunakan simbol-simbol tertentu untuk mewakili langkah-langkah algoritma.
-- **Prosedur :** Prosedur adalah algoritma yang ditulis dalam bahasa pemrograman tertentu. <br>
+### Pemrograman
 
-### Pengenalan Bahasa C
-- Bahasa C adalah bahasa pemrograman tingkat tinggi yang digunakan untuk berbagai macam keperluan, mulai dari sistem operasi, aplikasi, hingga perangkat keras. Bahasa C memiliki sintaks yang sederhana dan mudah dipelajari, sehingga cocok untuk pemula.
-- C adalah bahasa pemrograman tingkat menengah yang dikembangkan pertama kali oleh Dennis Ritchie pada awal tahun 1970-an. Bahasa C memiliki sintaks yang relatif sederhana dan memberikan kontrol yang tinggi terhadap perangkat keras komputer.
+- Pemrograman adalah proses menulis, menguji, memperbaiki, dan memelihara kode yang membangun suatu program komputer. Kode ini ditulis dalam berbagai bahasa pemrograman, yang merupakan bahasa formal yang digunakan untuk berkomunikasi dengan komputer.
+- Secara sederhana, pemrograman adalah proses memberitahukan komputer apa yang harus dia kerjakan. Komputer tidak dapat memahami bahasa manusia secara langsung, sehingga kita harus menggunakan bahasa pemrograman untuk berkomunikasi dengannya.
 
-### IDE & Instalasi
+### Bahasa Pemrograman
 
-IDE (Integrated Development Environment) adalah perangkat lunak yang digunakan untuk menulis, mengedit, dan mengompilasi kode program. IDE dapat memudahkan programmer dalam menulis program, karena menyediakan berbagai macam fitur yang mendukung proses pemrograman, antara lain:
+Bahasa pemrograman berdasarkan tingkatannya:
+- Bahasa Tingkat Tinggi
+  Bahasa pemrograman masuk tingkat ini karena bahasa tersebut mendekati bahasa manusia. Contohnya bahasa Basic, Visual Basic, Pascal, Java, PHP.
+- Bahasa Tingkat Menengah
+  Disebut tingkat menengah karena bisa masuk ke dalam bahasa tingkat tinggi maupun rendah. Contohnya bahasa C.
+- Bahasa Tingkat Rendah
+  Bahasa pemrograman masuk tingkat ini karena bahasanya masih jauh dari bahasa manusia. Contohnya bahasa Assembly.
 
-- **Editor :** Editor untuk menulis kode program.
-- **Kompiler :** Kompiler untuk mengompilasi kode sumber menjadi kode mesin.
-- **Debugger :** Debugger untuk memeriksa kesalahan dalam program.
-- **Linters :** Linter untuk memeriksa kode program untuk potensi kesalahan.
+### IDE
 
-### Contoh IDE
-Ada banyak IDE yang tersedia untuk bahasa C, antara lain:
-- **Dev-C++ :** IDE gratis dan open source yang populer untuk bahasa C.
-- **Code::Blocks :** IDE gratis dan open source yang juga populer untuk bahasa C.
-- **Visual Studio :** IDE berbayar yang dikembangkan oleh Microsoft.
-- **Xcode :** IDE berbayar yang dikembangkan oleh Apple.
+Integrated Development Environment, adalah sebuah perangkat lunak yang digunakan untuk pengembangan software. Fungsinya adalah untuk menyediakan environment yang terintegrasi sehingga programmer dapat menulis, menguji, dan men-debug kode dengan lebih mudah dan efisien.
+Fitur IDE:
+- Editor kode: Sebuah editor teks yang dirancang khusus untuk menulis kode, dengan fitur seperti syntax highlighting, autocomplete, dan code formatting.
+- Compiler/Interpreter: Alat yang menerjemahkan kode program menjadi bahasa mesin atau mengeksekusnya secara langsung.
+- Debugger: Alat untuk menemukan dan memperbaiki error dalam kode program.
+- Build automation: Alat untuk mengotomatiskan proses kompilasi, linking, dan packaging software.
+- Version control: Sistem untuk melacak perubahan kode program dan memutar ulang ke versi sebelumnya jika diperlukan.
+- Refactoring tools: Alat untuk mengubah struktur kode program tanpa mengubah fungsinya.
+- Code testing tools: Alat untuk membantu menguji fungsionalitas dan keamanan kode program.
+Contoh IDE:
+- Visual Studio (C++, C#, Python, Java, dll.)
+- IntelliJ IDEA (Java, Python, Kotlin, dll.)
+- Eclipse (Java, C++, Python, PHP, dll.)
+- PyCharm (Python)
+- WebStorm (JavaScript, HTML, CSS)
+- Atom (JavaScript, Python, PHP, dll.)
+- VS Code (JavaScript, Python, Java, Go, dll.)
 
 <div align="center">
   <a href="#navigator"><kbd> <br> Kembali <br> </kbd></a>
 </div>
 
 ---
-<h1 id="modul2">2. Pemrograman Dasar C</h1>
+<h1 id="JS2">2. Pemrograman Dasar C</h1>
 
 ### Struktur dasar program C terdiri dari tiga bagian utama, yaitu:
 - **Judul program :** Bagian ini berisi nama program dan keterangan singkat tentang program.
@@ -168,7 +179,7 @@ Pada contoh program di atas, fungsi `scanf()` digunakan untuk membaca nilai vari
 </div>
 
 ---
-<h1 id="modul3">3. Variabel, Konstanta dan Tipe Data</h1>
+<h1 id="JS3">3. Variabel, Konstanta dan Tipe Data</h1>
 
 ### Variabel & Konstanta
 - **Variabel :** Tempat penyimpanan data dalam memori komputer. Variabel dapat digunakan untuk menyimpan berbagai macam data, seperti angka, huruf, karakter, atau bilangan kompleks.
@@ -291,7 +302,7 @@ Keywords tidak dapat digunakan sebagai nama variabel
 </div>
 
 ---
-<h1 id="modul4">4. Operator</h1>
+<h1 id="JS4">4. Operator</h1>
 
 ### Operator Aritmatika
 Operator aritmatika digunakan untuk melakukan operasi aritmatika, seperti penjumlahan, pengurangan, perkalian, pembagian, dan sisa bagi
@@ -413,7 +424,7 @@ if (a > b) {
 </div>
 
 ---
-<h1 id="modul5">5. Flow Control (Decision Making)</h1>
+<h1 id="JS5">5. Flow Control (Decision Making)</h1>
 
 ### If
 Pernyataan if digunakan untuk mengeksekusi blok kode jika kondisi tertentu terpenuhi.
@@ -488,7 +499,7 @@ Pada contoh di atas, percabangan if pertama digunakan untuk menentukan apakah a 
 </div>
 
 ---
-<h1 id="modul6">6. Flow Control (Looping)</h1>
+<h1 id="JS6">6. Flow Control (Looping)</h1>
 
 ### Perulangan for
 Perulangan for digunakan untuk mengeksekusi blok kode tertentu secara berulang-ulang, dengan jumlah pengulangan yang telah ditentukan.
@@ -551,7 +562,7 @@ Perulangan bersarang dapat digunakan untuk menyelesaikan berbagai macam masalah,
 </div>
 
 ---
-<h1 id="modul7">7. Array</h1>
+<h1 id="JS7">7. Array</h1>
 
 ### Pengertian Array
 Array adalah struktur data yang digunakan untuk menyimpan kumpulan data dengan tipe data yang sama. Array dideklarasikan dengan menggunakan tipe data dan nama array, diikuti dengan tanda kurung siku.
@@ -658,7 +669,7 @@ if (indeks == -1) {
 </div>
 
 ---
-<h1 id="modul8">8. Fungsi dan Prosedur</h1>
+<h1 id="JS8">8. Fungsi dan Prosedur</h1>
 
 ### Pengertian Fungsi
 - Fungsi adalah blok kode yang dapat digunakan untuk melakukan tugas tertentu. Fungsi dapat digunakan untuk membagi kode menjadi bagian-bagian yang lebih kecil dan lebih mudah dikelola.
@@ -789,7 +800,7 @@ int main(void) {
 </div>
 
 ---
-<h1 id="modul9">9. Pointer</h1>
+<h1 id="JS9">9. Pointer</h1>
 
 ### Pengertian Pointer
 Pointer adalah sebuah variabel yang menyimpan alamat memori dari variabel lain. Dengan kata lain, pointer adalah variabel yang berisikan alamat memori dari variabel lain.
@@ -850,7 +861,7 @@ printf("%d\n", *p); // Mencetak elemen kedua array
 </div>
 
 ---
-<h1 id="modul10">10. Enumerasi dan Structure</h1>
+<h1 id="JS10">10. Enumerasi dan Structure</h1>
 
 ### Pengertian Enum
 Enum adalah tipe data yang berisi sekumpulan konstanta. Enum termasuk dalam tipe data bentukan, karena tipe data ini dibuat sendiri oleh kita.
@@ -950,7 +961,7 @@ struct prodi {
 </div>
 
 ---
-<h1 id="modul11">11. File Handling in C</h1>
+<h1 id="JS11">11. File Handling in C</h1>
 
 ### Membaca File dengan C
 Untuk membaca file dengan C, kita perlu menggunakan fungsi `fopen()` untuk membuka file. Fungsi `fopen()` menerima dua parameter, yaitu nama file dan mode. Mode menentukan bagaimana file akan dibuka.
