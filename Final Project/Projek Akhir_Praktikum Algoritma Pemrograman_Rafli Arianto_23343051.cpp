@@ -65,7 +65,7 @@ void hitungTotalHarga() {
     int totalHarga = 0;
     for (int i = 0; i < jumlahKonsumen; i++) {
         if (strcmp(konsumen[i].id, id) == 0) {
-            totalHarga = konsumen[i].durasi * 200000; // Assuming subscription fee is $50 per month
+            totalHarga = konsumen[i].durasi * 200000; 
             break;
         }
     }
